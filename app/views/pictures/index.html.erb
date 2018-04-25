@@ -1,0 +1,14 @@
+
+<h1>Pictures</h1>
+
+<ul>
+  <% @pictures.each do |picture| %>
+    <li><%= link_to picture.title, picture_path(picture) %></li>
+    <li><%= image_tag picture.picture.url %></li>
+
+  <% end %>
+</ul>
+
+<hr>
+
+<%= link_to "New Picture", new_picture_path %>
