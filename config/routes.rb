@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  root :to => 'layouts#index'
+  root :to => 'rons#index'
 
   devise_for :users
 
-  resources :questions do
-    resources :answers
+  resources :pictures do
+    resources :comments
   end
 
 
