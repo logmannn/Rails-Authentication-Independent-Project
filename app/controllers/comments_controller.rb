@@ -5,6 +5,7 @@ class CommentsController < ApplicationController
 
   def show
     @comment = Comment.find(params(:id))
+    # @user = User.find(params(@comment.user_id))
     @picture = Comment.picture
   end
 

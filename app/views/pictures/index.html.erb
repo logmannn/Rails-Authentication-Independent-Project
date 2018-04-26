@@ -3,7 +3,9 @@
 
 <ul>
   <% @pictures.each do |picture| %>
-    <li><%= link_to picture.title, picture_path(picture) %><%= image_tag picture.picture.url %></li>
+    <li><%= link_to picture.title, picture_path(picture) %>
+    <br>
+    <%= image_tag picture.picture.url %></li>
 
   <% end %>
 </ul>

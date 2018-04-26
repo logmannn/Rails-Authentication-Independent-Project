@@ -12,8 +12,9 @@
   <% @picture.comments.each do |comment| %>
     <li style="list-style: none;">
       <div class="well">
+        <%= comment.user.username %>
         <br>
-        <%= comment.user_id %>
+        <%=%>
         <br>
         <%= comment.comment_body %>
         <br>
