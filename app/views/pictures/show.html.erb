@@ -1,9 +1,9 @@
 <h3><%= @picture.title %></h3>
-<%= image_tag @picture.picture.url %>
+<%= image_tag @picture.picture.url, style: 'height:auto;width:70%;' %>
 
 
 
-
+<hr>
 <%= link_to "New Comment", new_picture_comment_url(@picture) %>
 
 
