@@ -18,6 +18,7 @@
 - [ ] As a user, I would like a way to navigate using a navbar (users, albums, etc.)
 - [ ] As a user, I want to see other user's pictures.
 - [ ] As a user, I want to delete and update my pictures.
+- [x] As an administrator, I want to deny non-users to add comments.
 - [ ] As an administrator, I want to admin rights to CRUD all pictures.
 - [ ] As an administrator, I want to admin rights to CRUD all comments.
 - [ ] As an administrator, I want to be able to delete users, if necessary.
