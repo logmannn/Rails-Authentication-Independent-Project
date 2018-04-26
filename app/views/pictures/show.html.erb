@@ -1,2 +1,4 @@
 <h3><%= @picture.title %></h3>
 <%= image_tag @picture.picture.url %>
+
+<%= link_to "New Comment", new_picture_comment_url(@picture) %>

@@ -1,4 +1,4 @@
-class CommentsController > ApplicationRecord
+class CommentsController < ApplicationRecord
   def index
     @comment = Comment.all
   end
