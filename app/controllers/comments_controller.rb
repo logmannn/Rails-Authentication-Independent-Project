@@ -1,4 +1,4 @@
-class CommentsController < ApplicationRecord
+class CommentsController < ApplicationController
   def index
     @comment = Comment.all
   end
@@ -12,6 +12,17 @@ class CommentsController < ApplicationRecord
     @picture = Picture.find(params[:picture_id])
     @comment = @picture.comments.new
   end
+
+  def create
+      @picture = Picture.find(params[:picture_id])
+      @comment = @picture.comments.new(comment_params)
+      if @comment.save
+        flash[:notice] = "Comment added"
+        redirect_to picture_path(@comment.picture)
+      else
+        render :new
+      end
+    end
 
   def edit
     @picture = Picture.find(params[:picture_id])
@@ -32,11 +43,11 @@ class CommentsController < ApplicationRecord
     @picture = Picture.find(params[:picture_id])
     @comment = Comment.find(params[:id])
     @comment.destroy
-    redirect_to picture_path(@comment.post)
+    redirect_to picture_path(@comment.picture)
   end
 
   private
   def comment_params
-    params.require(:comment).permit(:username, :comment_body)
+    params.require(:comment).permit( :comment_body)
   end
 end

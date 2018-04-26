@@ -1,4 +1,27 @@
 <h3><%= @picture.title %></h3>
 <%= image_tag @picture.picture.url %>
 
+
+
+
 <%= link_to "New Comment", new_picture_comment_url(@picture) %>
+
+
+<div class="col-md-8">
+  <h3>Comments:</h3>
+  <% @picture.comments.each do |comment| %>
+    <li style="list-style: none;">
+      <div class="well">
+        <br>
+        <%= comment.comment_body %>
+        <br>
+
+        <p><%= link_to "Edit", edit_picture_comment_path(@picture, comment) %></p>
+        <p><%= link_to "Delete",picture_comment_path(@picture, comment),
+                        :data => {:confirm => "Are you sure?",
+                                       :method => "delete"} %></p>
+
+      </div>
+    </li>
+  <% end %>
+</div>
