@@ -308,6 +308,19 @@ header nav ul li a:active {
   margin-top: 50px;
 }
 
+.blog-image {
+  height: auto;
+  max-height: 400px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.newblog {
+  margin-top: 50px;
+}
+
 .destroyed {
   -moz-animation: cssAnimation 0s ease-in 3s forwards;
   /* Firefox */

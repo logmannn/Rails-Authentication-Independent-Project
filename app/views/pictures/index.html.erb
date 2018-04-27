@@ -327,22 +327,24 @@
   <h1 class="cap tcenter section">About</h1>
 </div>-->
 
-<div class="container">
+<div class="container" id="blog">
 
   <h1 class="cap tcenter section" id="projects" >Blog</h1>
 
-  <ul>
     <% @pictures.each do |picture| %>
-      <li><%=picture.title %>
-      <br>
-      <a href="<%=picture_path(picture)%>"><%= image_tag picture.picture.url, style: 'height:auto;width:70%;' %> </a></li>
+      <hr>
+      <a href="<%=picture_path(picture)%>">
+        <h3 class="tcenter"><%=picture.title %></h3>
+        <center>
+          <%= image_tag picture.picture.url, class: 'blog-image' %>
+        </center>
+      </a>
+      <center><%=picture.description %></center>
 
     <% end %>
-  </ul>
 
-  <hr>
 
-  <%= link_to "New Picture", new_picture_path %>
+  <center class="newblog"><%= link_to "New Blog", new_picture_path %></center>
 
 </container>
 

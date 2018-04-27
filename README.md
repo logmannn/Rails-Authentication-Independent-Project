@@ -52,6 +52,15 @@
 - [ ] As an administrator, I want to be able to make other users administrators.
 - [ ] As an administrator, add scopes to add interesting photos, comments, etc.
 
+## Time spent
+<ul>
+  <li>~30 minutes spent debugging rails versions not working. Same thing happened somehow when I ran a previous project</li>
+  <li>~30 minutes spent learning authorization and what that is.</li>
+</ul>
+
+## Incorporated strengths
+
+
 ### Application instructions (assuming Mac OS)
 * If you want to use Postgres for the database and not to install Rail's testing tools, create a file called `.railsrc` in your home directory (using the text editor of your choice) and add the line `-d postgresql -T`
 
@@ -69,6 +78,9 @@
 * * Database setup: Run `rake db:migrate db:test:prepare` to prepare the database and create the Active Record schema.rb file, respectively.
 
 * Rails server: Run `$ rails server` to start the Rails server.  Navigate to `http://localhost:3000`.  Refresh the page to reload any changes to the source files.
+
+### Known bugs
+* Most Nav links only work on home page
 
 #### Special thanks to NickoDelaCruz and r-craig73 that helped to develop the previous project that this portfolio site is based on.
 

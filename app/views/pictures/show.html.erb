@@ -1,10 +1,10 @@
-<h3><%= @picture.title %></h3>
-<%= image_tag @picture.picture.url, style: 'height:auto;width:70%;' %>
+<h3 class="tcenter"><%= @picture.title %></h3>
+<center><%= image_tag @picture.picture.url, class: 'blog-image' %></center>
 
-
+<center><%=@picture.description %></center>
 
 <hr>
-<%= link_to "New Comment", new_picture_comment_url(@picture) %>
+<center><%= link_to "New Comment", new_picture_comment_url(@picture) %></center>
 
 
 <div class="col-md-8">
