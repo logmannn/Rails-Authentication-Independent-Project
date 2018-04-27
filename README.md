@@ -6,24 +6,33 @@
 ## Description
 ### A Rails site that utilizes authentication that will become my portfolio project.
 
-<!--List your strengths in your README. Relevant experience at a past job could be an example of a serious strength. Being good at walking backwards with your eyes closed might not be something you put on your resume, but feel free to put it in your README. In addition, make a list of your personal interests, hobbies and so on. Expressing yourself creatively in this way might lead insights about strengths and personal interests that could end up in your resume or portfolio site. These quirky details can also help convey a sense of who you are as a person, which might get a potential employer's attention.-->
-
 ## My Strengths
 <ul>
-  <li>Previous jobs in the tech industry:
+  <li>Email Marketing and Tech Experience developing tools
     <ul>
-      <li>The Dyrt - Email Marketing - </li>
+      <li>The Dyrt - Email Marketing (Current)</li>
       <li>Evanta - Email Marketing - developed a tool that automated email and sign manufacture</li>
       <li>Dev lions - XML to HTML conversion using perl and REGEX</li>
     </ul>
   </li>
-  <li></li>  
-  <li></li>  
-  <li></li>  
-  <li></li>  
-  <li></li>  
-  <li></li>  
+  <li>Obtained education to develop my web development skils:
+    <ul>
+      <li>Epicodus - Taking the Ruby on Rails track</li>
+      <li>PCC - Associates degree in Web Development</li>
+    </ul>
+  </li>
+  <li>I have strong problem-solving skills. When working at Evanta I developed a Perl Regular expression tools that made mine and another employee's work have almost no human error and decreased email creation time down to 3 minutes when it previous took 25-30 minutes.</li>  
+</ul>  
+## My Hobbies  
+<ul>
+  <li>Table Tennis Master - Consolation champion and 2nd place victories at the tech and pong meetups</li>  
+  <li>Virtual Reality hobby - Compete in games like onward and looking to develop something similar in aFrame. I have started my collection of VR gear with loads of controllers, gear and various brand's HMDs.</li>   
 </ul>
+
+<!-- add a paragraph to your README that describes how you incorporated and highlighted your strengths on your portfolio site.-->
+
+
+
 
 ## User stories
 * As a 'role', I want feature', so that 'benefit'.
