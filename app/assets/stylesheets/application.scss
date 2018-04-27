@@ -180,7 +180,7 @@ header nav ul li a:active {
 .webDev {
   height: 75px;
   float:right;
-  margin-top:-20px  
+  margin-top:-20px
 }
 
 .amzLogo {
@@ -195,6 +195,10 @@ header nav ul li a:active {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.emailMarketing2 {
+  height: 75px;
 }
 
 .below-icon1 {
@@ -291,6 +295,9 @@ header nav ul li a:active {
   max-width: 700px;
   margin: 0 auto;
 }
+.items-hobbies2 {
+    display: none;
+}
 
 @media screen and (max-width: 991px) {
   .temporary-bootstrap-weird-resize-fix {
@@ -304,6 +311,12 @@ header nav ul li a:active {
 @media screen and (max-width: 767px) {
     .myPhoto {
         display: none;
+    }
+    .items-hobbies {
+        display: none;
+    }
+    .items-hobbies2 {
+        display: block;
     }
 }
 
