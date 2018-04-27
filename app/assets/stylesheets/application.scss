@@ -277,10 +277,31 @@ header nav ul li a:active {
     z-index: 10;
   }
 
+  .temporary-bootstrap-weird-resize-fix {display: none}
+  .temporary-bootstrap-weird-resize-fix-600 {display: none}
+
 .firstPointer:after {border-left: 0;}
+
+@media screen and (max-width: 991px) {
+  .temporary-bootstrap-weird-resize-fix {
+    display: block;
+  }
+  .large-bootstrap-show {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 767px) {
     .myPhoto {
         display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .temporary-bootstrap-weird-resize-fix {
+        display: none;
+    }
+    .temporary-bootstrap-weird-resize-fix-600 {
+      display: block
     }
 }
