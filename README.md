@@ -71,3 +71,5 @@
 * Rails server: Run `$ rails server` to start the Rails server.  Navigate to `http://localhost:3000`.  Refresh the page to reload any changes to the source files.
 
 #### Special thanks to NickoDelaCruz and r-craig73 that helped to develop the previous project that this portfolio site is based on.
+
+<!--research authorization and adding specs to it. Had to revert.-->
