@@ -4,7 +4,7 @@
 ### by Logan Tanous
 
 ## Description
-#### A Rails site that utilizes authentication that will become my portfolio project.
+#### A Rails site that utilizes authentication that will become my portfolio project. Implements previously designed portfolio and adds a blog.
 
 <h2>My Strengths</h2>
 <ul>

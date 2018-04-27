@@ -1,2 +1,282 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/*Utility Classes*/
+.cap {text-transform: uppercase;}
+
+.tcenter {
+  text-align: center;
+  display: block;
+}
+
+.center {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+
+.white {background-color: white;}
+
+.specialColor {color: #F24C27}
+
+.noPadding {padding: 0 0 0 0}
+
+.invertColor {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.higherZindex {
+  position: relative;
+  z-index: 10;
+}
+
+.spacer45 {height: 45px;}
+
+.spacer100 {height: 100px;}
+
+/**/
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: Helvetica Neue, Arial;
+}
+
+body {
+  background-color: #FFF;
+  color: #333333;
+}
+
+h1.section::after {
+  content: "_";
+  display:block;
+  -webkit-transform:scale(3.5,1.2); /* Safari and Chrome */
+  -moz-transform:scale(3.5,1.2); /* Firefox */
+  -ms-transform:scale(3.5,1.2); /* IE 9 */
+  -o-transform:scale(3.5,1.2); /* Opera */
+  transform:scale(3.5,1.2); /* W3C */
+  line-height: 0;
+}
+
+h1.section {
+  margin: 90px 0 104px 0;
+}
+
+nav {
+  border-bottom: 3px solid #56B9D0;
+  font-weight: 100;
+  background-color: #333333;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 50px;
+  font-size: 16px;  
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #111111;
+}
+
+header nav ul li a:link {
+    text-decoration: none;
+}
+
+header nav ul li a:visited {
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: #F24C27;
+    transition: color 0.5s ease-in-out;
+}
+
+header nav ul li a:active {
+    text-decoration: none;
+    color: #F24C27;
+}
+
+.midsection {
+  margin: 100px 0 100px 0;
+  padding: 100px 0 100px 0;
+  background: #f5f5f5;
+}
+
+.midsection h1.section {
+  margin: 0 0 0 0;
+}
+
+.aboutMe .row {margin-bottom: 20px;}
+
+.logos {
+  margin-top: 20px;
+  z-index: 10;
+  position: relative;
+}
+
+
+
+.pointer img {width: 50px;}
+
+.school {
+  margin-left: 10px;
+}
+
+.school2 {
+  margin-left:35px;
+}
+
+.lion {
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.thedyrt {
+  margin-left: 30px;
+  margin-top: 35px;
+  width: 90px !important;
+}
+
+.evanta {
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 80px !important;
+}
+
+.aboutMe .col {margin-top: 20px;}
+
+.myPhoto {
+  margin-top: 25px;
+}
+
+
+.webDev {
+  height: 75px;
+  float:right;
+}
+
+.amzLogo {
+  height: 75px;
+  position: absolute;
+  right: 0;
+  top: 160px;
+}
+
+.emailMarketing {
+  height: 75px;
+  position: absolute;
+  left: 0;
+}
+
+.below-icon1 {
+  position: absolute;
+  right:0px;
+  top:80px;
+  width: 120px;
+}
+
+.below-icon2 {
+  position: absolute;
+  left:0px;
+  top:80px;
+  width: 70px;
+}
+
+.below-icon3 {
+  position: absolute;
+  right:0px;
+  top:250px;
+  width: 100px;
+}
+
+.pingPong {
+  height: 75px;
+  position: absolute;
+  right: left;
+  top: 160px;
+}
+
+.below-icon4 {
+  position: absolute;
+  left:0px;
+  top:250px;
+  width: 100px;
+}
+
+.proj {
+  background: #FFF;
+}
+
+.proj img {
+  width: 350px;
+  overflow-y: hidden;
+}
+
+.resort {
+  object-fit: cover;
+}
+
+.valignBottom {
+  vertical-align: bottom;
+}
+
+/*CSS Pointer Symbol*/
+
+.pointer {
+    width: 160px;
+    height: 90px;
+    position: relative;
+    background: #56B9D0;
+  }
+.pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid white;
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+  }
+.pointer:before {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid #56B9D0;
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+    z-index: 10;
+  }
+
+.firstPointer:after {border-left: 0;}
+
+@media screen and (max-width: 767px) {
+    .myPhoto {
+        display: none;
+    }
+}
