@@ -343,8 +343,9 @@
 
     <% end %>
 
-
-  <center class="newblog"><%= link_to "New Blog", new_picture_path %></center>
+    <% if current_user && current_user.admin %>
+      <center class="newblog"><%= link_to "New Blog", new_picture_path %></center>
+  <% end %>
 
 </container>
 
