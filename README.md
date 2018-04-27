@@ -2,12 +2,28 @@
 # Portfolio
 
 ### by Logan Tanous
-### by (GitHub usernames: NickoDelaCruz, r-craig73)
 
 ## Description
-### A two-day project cloning Flicker using authentication and authorization.
+### A Rails site that utilizes authentication that will become my portfolio project.
 
-#### Maybe heroku deployment?
+<!--List your strengths in your README. Relevant experience at a past job could be an example of a serious strength. Being good at walking backwards with your eyes closed might not be something you put on your resume, but feel free to put it in your README. In addition, make a list of your personal interests, hobbies and so on. Expressing yourself creatively in this way might lead insights about strengths and personal interests that could end up in your resume or portfolio site. These quirky details can also help convey a sense of who you are as a person, which might get a potential employer's attention.-->
+
+## My Strengths
+<ul>
+  <li>Previous jobs in the tech industry:
+    <ul>
+      <li>The Dyrt - Email Marketing - </li>
+      <li>Evanta - Email Marketing - developed a tool that automated email and sign manufacture</li>
+      <li>Dev lions - XML to HTML conversion using perl and REGEX</li>
+    </ul>
+  </li>
+  <li></li>  
+  <li></li>  
+  <li></li>  
+  <li></li>  
+  <li></li>  
+  <li></li>  
+</ul>
 
 ## User stories
 * As a 'role', I want feature', so that 'benefit'.
@@ -44,33 +60,4 @@
 
 * Rails server: Run `$ rails server` to start the Rails server.  Navigate to `http://localhost:3000`.  Refresh the page to reload any changes to the source files.
 
-*
-
-### System dependencies
-#### There are soooooo many ruby gem dependencies, below is a list for this project (coming soon)...
-
--[ ]
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Special thanks to NickoDelaCruz and r-craig73 that helped to develop the previous project that this portfolio site is based on.
