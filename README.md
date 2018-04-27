@@ -1,7 +1,7 @@
 # README
-# Flickrer clone
+# Portfolio
 
-### 2-day project by Nicko Dela Cruz, Ron Craig and Logan
+### by Logan Tanous
 ### by (GitHub usernames: NickoDelaCruz, r-craig73)
 
 ## Description
