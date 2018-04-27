@@ -11,7 +11,7 @@
   <li>Email Marketing and Tech Experience developing tools
     <ul>
       <li>The Dyrt - Email Marketing (Current)</li>
-      <li>Evanta - Email Marketing - developed a tool that automated email and sign manufacture</li>
+      <li>Evanta - Email Marketing - developed a tool that automated my work</li>
       <li>Dev lions - XML to HTML conversion using perl and REGEX</li>
     </ul>
   </li>
@@ -21,7 +21,8 @@
       <li>PCC - Associates degree in Web Development</li>
     </ul>
   </li>
-  <li>I have strong problem-solving skills. When working at Evanta I developed a Perl Regular expression tools that made mine and another employee's work have almost no human error and decreased email creation time down to 3 minutes when it previous took 25-30 minutes.</li>  
+  <li>I have strong problem-solving skills. When working at Evanta I developed a Perl Regular expression tools that made mine and another employee's work have almost no human error and decreased email creation time down to 3 minutes when it previous took 25-30 minutes.</li>
+  <li>I am someone who can adapt. When working at The Dyrt I have changed job titles numerous times and helped in facilitating reviews from influencers, developed email marketing campaigns and strategies, learned a handful of marketing software programs and have helped in setting up meetings and obtaining emails from a large amount of outdoor brands. </li>
 </ul>  
 ## My Hobbies  
 <ul>
