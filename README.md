@@ -32,8 +32,8 @@
 
 <!-- add a paragraph to your README that describes how you incorporated and highlighted your strengths on your portfolio site.-->
 
-
-
+## Strengths
+<p>As I was running out of time I added my strengths to my portfolio site using a seed file. Unfortunately the text is not currently being added as html so it doesn't have the best appearance.</p>
 
 ## User stories
 * As a 'role', I want feature', so that 'benefit'.
@@ -45,7 +45,7 @@
 - [ ] As a user, I want to see other user's pictures.
 - [ ] As a user, I want to delete and update my pictures.
 - [x] As an administrator, I want to deny non-users to add comments.
-- [ ] As an administrator, I want to admin rights to CRUD all pictures.
+- [ ] As an administrator, I want to admin rights to CRUD all blogs.
 - [ ] As an administrator, I want to admin rights to CRUD all comments.
 - [ ] As an administrator, I want to be able to delete users, if necessary.
 - [ ] As an administrator, I want a navbar that shows my admin options (reporting, user management).
@@ -77,11 +77,14 @@
 * Database setup...
 * * Database setup: Run `rake db:migrate db:test:prepare` to prepare the database and create the Active Record schema.rb file, respectively.
 
+* rake db:seed
+
 * Rails server: Run `$ rails server` to start the Rails server.  Navigate to `http://localhost:3000`.  Refresh the page to reload any changes to the source files.
 
 ### Known bugs
 * Most Nav links only work on home page
-* Blogs are still linkedin under pictures
+* Blogs are still linked under pictures
+* Blogs added don't accept html
 
 #### Special thanks to NickoDelaCruz and r-craig73 that helped to develop the previous project that this portfolio site is based on.
 
