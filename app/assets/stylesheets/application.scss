@@ -299,12 +299,54 @@ header nav ul li a:active {
     display: none;
 }
 
+.sign_up_or_in {
+  text-align: right;
+  margin-top: 17px;
+}
+
+.sign_up_or_in  a {color:white}
+
+.destroyed {
+  -moz-animation: cssAnimation 0s ease-in 3s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 3s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 3s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 3s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      overflow:hidden;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      visibility:hidden;
+  }
+}
+
+
 @media screen and (max-width: 1220px) {
   .temporary-bootstrap-weird-resize-fix {
     display: block;
   }
   .large-bootstrap-show {
     display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sign_up_or_in {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 65px;
   }
 }
 
