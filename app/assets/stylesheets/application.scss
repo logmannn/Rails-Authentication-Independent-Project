@@ -52,7 +52,7 @@ body {
   color: #333333;
 }
 
-.center-main {
+.icons-fix {
   margin-left: -28px;
 }
 
@@ -160,7 +160,7 @@ header nav ul li a:active {
   margin-left: 30px;
   margin-top: 35px;
   width: 90px !important;
-  filter: brightness(0) invert(1) ;  
+  filter: brightness(0) invert(1) ;
 }
 
 .evanta {
@@ -173,12 +173,14 @@ header nav ul li a:active {
 
 .myPhoto {
   margin-top: 25px;
+  margin-left: 30px;
 }
 
 
 .webDev {
   height: 75px;
   float:right;
+  margin-top:-20px  
 }
 
 .amzLogo {
@@ -192,6 +194,7 @@ header nav ul li a:active {
   height: 75px;
   position: absolute;
   left: 0;
+  top: 0;
 }
 
 .below-icon1 {
@@ -218,7 +221,7 @@ header nav ul li a:active {
 .pingPong {
   height: 75px;
   position: absolute;
-  right: left;
+  left: 0;
   top: 160px;
 }
 
@@ -285,6 +288,8 @@ header nav ul li a:active {
 
 .items-hobbies {
   position: relative;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 991px) {
