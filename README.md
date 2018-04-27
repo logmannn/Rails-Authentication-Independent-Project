@@ -4,9 +4,9 @@
 ### by Logan Tanous
 
 ## Description
-### A Rails site that utilizes authentication that will become my portfolio project.
+#### A Rails site that utilizes authentication that will become my portfolio project.
 
-## My Strengths
+<h2>My Strengths</h2>
 <ul>
   <li>Email Marketing and Tech Experience developing tools
     <ul>
@@ -21,10 +21,10 @@
       <li>PCC - Associates degree in Web Development</li>
     </ul>
   </li>
-  <li>I have strong problem-solving skills. When working at Evanta I developed a Perl Regular expression tools that made mine and another employee's work have almost no human error and decreased email creation time down to 3 minutes when it previous took 25-30 minutes.</li>
-  <li>I am someone who can adapt. When working at The Dyrt I have changed job titles numerous times and helped in facilitating reviews from influencers, developed email marketing campaigns and strategies, learned a handful of marketing software programs and have helped in setting up meetings and obtaining emails from a large amount of outdoor brands. </li>
+  <li>Strong problem-solving skills. When working at Evanta I developed a Perl Regular expression tools that made mine and another employee's work have almost no human error and decreased email creation time down to 3 minutes when it previous took 25-30 minutes.</li>
+  <li>Someone who can adapt. When working at The Dyrt I have changed job titles numerous times and helped in facilitating reviews from influencers, developed email marketing campaigns and strategies, learned a handful of marketing software programs and have helped in setting up meetings and obtaining emails from a large amount of outdoor brands.</li>
 </ul>  
-## My Hobbies  
+<h2>My Hobbies</h2>
 <ul>
   <li>Table Tennis Master - Consolation champion and 2nd place victories at the tech and pong meetups</li>  
   <li>Virtual Reality hobby - Compete in games like onward and looking to develop something similar in aFrame. I have started my collection of VR gear with loads of controllers, gear and various brand's HMDs.</li>   
