@@ -41,9 +41,9 @@
 - [x] As a user, I want to see my login information at the top of the page with an option to log out.
 - [x] As a user, I want to admin rights to CRUD all comments.
 - [x] As a user, I can cancel my account.
+- [x] As a user, I want to be able to have CRUD abilities for only my comments.
 - [ ] As a user, I would like a way to navigate using a navbar (users, albums, etc.)
-- [ ] As a user, I want to see other user's pictures.
-- [ ] As a user, I want to delete and update my pictures.
+- [ ] As a user, I want to delete and update my blogs.
 - [x] As an administrator, I want to deny non-users to add comments.
 - [ ] As an administrator, I want to admin rights to CRUD all blogs.
 - [ ] As an administrator, I want to admin rights to CRUD all comments.
