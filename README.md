@@ -81,6 +81,7 @@
 
 ### Known bugs
 * Most Nav links only work on home page
+* Blogs are still linkedin under pictures
 
 #### Special thanks to NickoDelaCruz and r-craig73 that helped to develop the previous project that this portfolio site is based on.
 
