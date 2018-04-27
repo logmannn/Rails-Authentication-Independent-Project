@@ -19,11 +19,12 @@
         <%= comment.comment_body %>
         <br>
 
-        <p><%= link_to "Edit", edit_picture_comment_path(@picture, comment) %></p>
-        <p><%= link_to "Delete",picture_comment_path(@picture, comment),
-                        :data => {:confirm => "Are you sure?",
-                                       :method => "delete"} %></p>
-
+        <% if current_user.id == comment.user.id %>
+          <p><%= link_to "Edit", edit_picture_comment_path(@picture, comment) %></p>
+          <p><%= link_to "Delete",picture_comment_path(@picture, comment),
+                          :data => {:confirm => "Are you sure?",
+                                         :method => "delete"} %></p>
+        <% end %>
       </div>
     </li>
   <% end %>
